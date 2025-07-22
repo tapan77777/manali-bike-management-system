@@ -33,7 +33,7 @@ export default function HomePage() {
               Easy Booking
             </h3>
             <p className="text-gray-600">
-              Book online or walk-in. Quick and simple process.
+              Book online or walk in. Quick and simple process.
             </p>
           </div>
           
@@ -42,7 +42,7 @@ export default function HomePage() {
               Quality Bikes
             </h3>
             <p className="text-gray-600">
-              Well-maintained bikes for every riding style.
+              Well maintained bikes for every riding style.
             </p>
           </div>
           

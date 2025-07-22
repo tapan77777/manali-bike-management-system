@@ -62,7 +62,7 @@ export default function TodayOverview() {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
       <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
         <h3 className="text-sm font-medium text-gray-600 mb-2">
-          Today's Bookings
+          Todays Bookings
         </h3>
         <p className="text-3xl font-bold text-blue-600">
           {stats.todayBookings}
@@ -98,7 +98,7 @@ export default function TodayOverview() {
       
       <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500">
         <h3 className="text-sm font-medium text-gray-600 mb-2">
-          Today's Revenue
+          Todays Revenue
         </h3>
         <p className="text-3xl font-bold text-purple-600">
           {formatCurrency(stats.todayRevenue)}
