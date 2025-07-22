@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 'use client';
-import { formatCurrency } from '@/utils/format';
+// import { formatCurrency } from '@/utils/format';
 import { useEffect, useState } from 'react';
 
 export default function TodayOverview() {
@@ -103,7 +103,7 @@ export default function TodayOverview() {
           Today&apos;s Revenue
         </h3>
         <p className="text-3xl font-bold text-purple-600">
-          {formatCurrency(stats.todayRevenue) || '₹0'}
+          {/* {formatCurrency(stats.todayRevenue) || '₹0'} */}
         </p>
       </div>
     </div>
